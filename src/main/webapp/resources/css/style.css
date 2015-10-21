@@ -1,0 +1,262 @@
+@CHARSET "UTF-8";
+/* CSS Document */
+body {
+	margin: 0px;
+	padding: 20px 0px 20px 0px;
+	background: #ececec;
+}
+
+a {
+	text-decoration: none;
+	color: #d9653b;
+	font-weight: bold;
+}
+
+body,td {
+	font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
+}
+
+div,p,span,a,ul,ol,li,h1,h2,h3,h4,h5,h6,form {
+	margin: 0px;
+	padding: 0px;
+}
+
+.wrapper {
+	margin: 0px auto;
+	padding: 0px;
+	background: #FFFFFF;
+	width: 770px;
+	overflow: hidden;
+}
+
+.main {
+	margin: 0px;
+	padding: 10px 10px 10px 10px;
+}
+
+.header {
+	margin: 0px;
+	padding: 0px;
+	width: 750px;
+	overflow: hidden;
+	background: #d5e9e7;
+	width: 750px;
+	font-weight: bold;
+	height: 140px;
+	text-align: center;
+	color: #72a6a6;
+	font-family: 'Helvetica Neue', Arial, Helvetica, Geneva, sans-serif;
+	font-size: 58px;
+}
+
+.header:hover {
+	background: #DDEDEB;
+}
+
+.header-title {
+	display: block;
+	margin-top: 40px;
+}
+
+.mid {
+	margin: 0px;
+	padding: 15px 0px 20px 0px;
+	width: 750px;
+	overflow: hidden;
+}
+
+.mid-left {
+	margin: 0px;
+	padding: 0px 21px 0px 0px;
+	width: 234px;
+	float: left;
+}
+
+.mid-right {
+	margin: 0px;
+	padding: 0px 0px 0px 0px;
+	width: 495px;
+	float: left;
+}
+
+.mid-left form {
+	margin: 0 0 20px 30px;
+}
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	text-decoration: underline;
+	color: #72a6a6;
+	font-weight: normal;
+	line-height: 24px;
+}
+
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	text-decoration: none;
+	color: #d9653b;
+	font-weight: bold;
+	line-height: 20px;
+}
+
+.gap-1 {
+	margin: 0px;
+	padding: 0px 0px 20px 0px;
+}
+
+.gap-2 {
+	margin: 0px;
+	padding: 0px 0px 15px 30px;
+}
+
+p.txt-1, table {
+	margin: 0px;
+	padding: 0px 0px 20px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	color: #323232;
+	font-weight: normal;
+	line-height: 16px;
+}
+
+ul.left-nav {
+	margin: 0px;
+	padding: 0px 0px 20px 0px;
+	list-style: none;
+	border-top: 1px solid #ececec;
+}
+
+ul.left-nav li {
+	margin: 0px;
+	padding: 10px 0px 10px 30px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	color: #323232;
+	font-weight: normal;
+	line-height: 15px;
+	display: block;
+	border-bottom: 1px solid #ececec;
+	border-left: 5px solid #ececec;
+}
+
+ul.left-nav li a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+	color: #323232;
+	font-weight: normal;
+}
+
+ul.left-nav li a:hover {
+	text-decoration: none;
+	color: #323232;
+	font-weight: normal;
+}
+
+.footer {
+	margin: 0px;
+	padding: 0px;
+	width: 750px;
+	overflow: hidden;
+	background: #4b4c44;
+}
+
+p.copyright {
+	margin: 0px;
+	padding: 10px 0px 10px 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: none;
+	color: #aaa;
+	font-weight: normal;
+	text-align: center;
+	line-height: 12px;
+}
+
+p.copyright a {
+	color: #ccc;
+}
+
+.error-message {
+	margin-bottom: 20px;
+	border: 1px solid #C91911;
+	background: #FAE8E7 url(error_icon.gif) no-repeat;
+	background-position: 10px;
+	padding: 10px 10px 10px 36px;
+}
+
+/* ----------------------- */
+.auctions-filter {
+	background: #ddd;
+	margin-bottom: 10px;
+	padding: 5px;
+	color: #4b4c44;
+	font-weight: bold;
+}
+
+.auction {
+	display: block;
+	margin-bottom: 10px;
+	padding: 5px;
+	border: 1px solid #ddd;
+}
+
+.auction:hover {
+	background: #eee;
+}
+
+.auction-image {
+	width: 190px;
+	display: inline-block;
+	float: left;
+	margin-right: 5px;
+}
+
+.auction-info {
+	width: 288px;
+	padding: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+.auction-new {
+	width: 495px;
+	padding: 0;
+}
+
+/* -----------------------------*/
+
+#rounded-corner
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	margin-top: 20px;
+	width: 495px;
+	text-align: left;
+	border-collapse: collapse;
+}
+#rounded-corner th
+{
+	padding: 8px;
+	font-weight: bold;
+	font-size: 13px;
+	color: #72a6a6;
+	background: #d5e9e7;
+}
+#rounded-corner td
+{
+	padding: 8px;
+	background: #e8edff;
+	border-top: 1px solid #fff;
+	color: #4b4c44;
+}
+#rounded-corner tbody tr:hover td
+{
+	background: #d5e9e7;
+}

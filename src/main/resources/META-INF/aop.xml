@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aspectj PUBLIC "-//AspectJ//DTD//EN" "http://www.eclipse.org/aspectj/dtd/aspectj.dtd">
+<aspectj>
+	<weaver options="-Xset:weaveJavaxPackages=true">
+		<!-- only weave classes in this package -->
+		<include within="feri.mazgon.auction.core.domain.*" />
+		<include within="feri.mazgon.auction.core.mail.*"/>
+	</weaver>
+</aspectj>
